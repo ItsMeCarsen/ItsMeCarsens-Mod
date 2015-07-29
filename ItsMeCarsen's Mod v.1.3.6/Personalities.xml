@@ -1,0 +1,33 @@
+<PersonalityGraph>
+	<Personalities>
+		<Personality>
+			<Name>Genious</Name>
+			<Aptitude>5</Aptitude>
+			<Leadership>1</Leadership>
+			<Diligence>1</Diligence>
+			<Relationships>
+				<Relation Name= "Extovert">-1</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Lazy</Name>
+			<Aptitude>-2</Aptitude>
+			<Leadership>-1</Leadership>
+			<Diligence>1</Diligence>
+			<Relationships>
+				<Relation Name="Hyper">-1</Relation>
+			</Relationships>
+		</Personality>
+		<Personality>
+			<Name>Hyper</Name>
+			<Aptitude>2</Aptitude>
+			<Leadership>1</Leadership>
+			<Diligence>-1</Diligence>
+			<Relationships>
+				<Relation Name="Lazy">-1</Relation>
+			</Relationships>
+		</Personality>
+	</Personalities>
+	<Incompatibilities>
+	</Incompatibilities>
+</PersonalityGraph>

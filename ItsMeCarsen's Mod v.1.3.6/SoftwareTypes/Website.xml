@@ -1,0 +1,429 @@
+<SoftwareType>
+	<Name>Website</Name>
+	<Category>The web</Category>
+	<Description></Description>
+	<Unlock>1990</Unlock>
+	<Random>0</Random>
+	<Popularity>0</Popularity>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>True</OneClient>
+	<InHouse>False</InHouse>
+	<Category>Website</Category>
+	<NameGenerator>None</NameGenerator>
+	<Needs></Needs>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Static pages</Name>
+			<Description></Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.25</CodeArt>
+			<Dependencies></Dependencies>
+		</Feature>
+		<Feature>
+			<Name>Image gallery</Name>
+			<Description></Description>
+			<Category>2D</Category>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.1</CodeArt>
+			<Dependencies></Dependencies>
+		</Feature>
+		<Feature From="Static pages">
+			<Name>Dynamic pages</Name>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependencies></Dependencies>
+		</Feature>
+		<Feature>
+			<Name>Store</Name>
+			<Description></Description>
+			<DevTime>6</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies>
+				<Dependency Software="Website">Dynamic pages</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature>
+			<Name>Database</Name>
+			<Description></Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies></Dependencies>
+		</Feature>
+		<Feature Forced="True" Vital="TRUE">
+			<Name>HTML</Name>
+			<Unlock>1990</Unlock>
+			<Description>Your first HTML Webpage!</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>1</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature From="HTML" Vital="TRUE">
+			<Name>HTML+</Name>
+			<Unlock>1993</Unlock>
+			<Description>Because someone decided to add more tags to HTML, you should make use of them.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>1</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature From="HTML+" Vital="TRUE">
+			<Name>HTML2</Name>
+			<Unlock>1994</Unlock>
+			<Description>HTML2 Is great! Lets use it to get money!</Description>
+			<DevTime>4</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>5</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>2</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature From="HTML2" Vital="TRUE">
+			<Name>HTML3</Name>
+			<Unlock>1995</Unlock>
+			<Description>The next version of HTML is released... Lets get going!</Description>
+			<DevTime>5</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>6</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>2</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature From="HTML3" Vital="TRUE">
+			<Name>HTML4</Name>
+			<Unlock>1998</Unlock>
+			<Description>HTML4 is a hit! Which means more money for us.</Description>
+			<DevTime>6</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>7</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>3</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature From="HTML4" Vital="TRUE">
+			<Name>HTML5</Name>
+			<Unlock>2012</Unlock>
+			<Description>Lets make use of the next generation of HTML</Description>
+			<DevTime>7</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>8</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>3</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="False" Vital="TRUE">
+			<Name>XHTML</Name>
+			<Unlock>2000</Unlock>
+			<Description>XHTML is a new type of HTML, could it be better? Could we use both?</Description>
+			<DevTime>4</DevTime>
+			<Innovation>8</Innovation>
+			<Usability>9</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>3</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature From="XHTML" Vital="TRUE">
+			<Name>XHTML2</Name>
+			<Unlock>2003</Unlock>
+			<Description>XHTML2 is the next version of XHTML.</Description>
+			<DevTime>5</DevTime>
+			<Innovation>9</Innovation>
+			<Usability>10</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>4</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature From="XHTML2" Vital="TRUE">
+			<Name>XHTML3</Name>
+			<Unlock>2005</Unlock>
+			<Description>Get some action with the new XHTML!</Description>
+			<DevTime>6</DevTime>
+			<Innovation>10</Innovation>
+			<Usability>11</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>4</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature From="XHTML3" Vital="TRUE">
+			<Name>XHTML4</Name>
+			<Unlock>2009</Unlock>
+			<Description>Study up, because the newest version of XHTML is here!</Description>
+			<DevTime>7</DevTime>
+			<Innovation>11</Innovation>
+			<Usability>12</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>5</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature From="XHTML4" Vital="TRUE">
+			<Name>XHTML5</Name>
+			<Unlock>2014</Unlock>
+			<Description>Here we are, the best yet, XHTML5. Comes with updates for HTML5</Description>
+			<DevTime>8</DevTime>
+			<Innovation>12</Innovation>
+			<Usability>13</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>5</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="False" Vital="TRUE">
+			<Name>Css</Name>
+			<Unlock>1997</Unlock>
+			<Description>Style your boring HTML websites with Css!</Description>
+			<DevTime>2</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Server>1</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature From="Css" Vital="TRUE">
+			<Name>CSS2</Name>
+			<Unlock>2004</Unlock>
+			<Description>The next version is great! Lets get to work.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>7</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Server>2</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature From="CSS2" Vital="TRUE">
+			<Name>CSS3</Name>
+			<Unlock>2010</Unlock>
+			<Description>Money will start piling up if we have CSS3!</Description>
+			<DevTime>4</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>8</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Server>2</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="False" Vital="FALSE">
+			<Name>Javascript</Name>
+			<Unlock>1995</Unlock>
+			<Description>JavaScript is so powerful, even superman cant withold the strength.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>8</Innovation>
+			<Usability>9</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>3</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature From="Javascript">
+			<Name>Javascript 1.5</Name>
+			<Unlock>2000</Unlock>
+			<Description>The latest version is the 3rd edition, so that means 3x the money!</Description>
+			<DevTime>6</DevTime>
+			<Innovation>10</Innovation>
+			<Usability>11</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>4</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="False" Vital="FALSE">
+			<Name>Java</Name>
+			<Unlock>1996</Unlock>
+			<Description>Java, not mistaken as JavaScript, is also very powerful, do not doubt its power!</Description>
+			<DevTime>2</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>1</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature From="Java" Vital="FALSE">
+			<Name>Java 1.5</Name>
+			<Unlock>2002</Unlock>
+			<Description>Another version of Java you say? Lets get going!</Description>
+			<DevTime>3</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>7</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>1</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature From="Java 1.5" Vital="FALSE">
+			<Name>Java5</Name>
+			<Unlock>2004</Unlock>
+			<Description>Yet another Java. This one is better then the rest though.</Description>
+			<DevTime>4</DevTime>
+			<Innovation>9</Innovation>
+			<Usability>10</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>2</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature From="Java5" Vital="FALSE">
+			<Name>Java6</Name>
+			<Unlock>2006</Unlock>
+			<Description>How have they managed to make another Java this good?</Description>
+			<DevTime>5</DevTime>
+			<Innovation>10</Innovation>
+			<Usability>11</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>2</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature From="Java6" Vital="FALSE">
+			<Name>Java7</Name>
+			<Unlock>2011</Unlock>
+			<Description>This Java is sure to be the best!</Description>
+			<DevTime>6</DevTime>
+			<Innovation>11</Innovation>
+			<Usability>12</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>2</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature From="Java7" Vital="FALSE">
+			<Name>Java8</Name>
+			<Unlock>2014</Unlock>
+			<Description>Java8, and amazing update.</Description>
+			<DevTime>7</DevTime>
+			<Innovation>12</Innovation>
+			<Usability>13</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>3</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature From="Java8" Vital="FALSE">
+			<Name>Java9</Name>
+			<Unlock>2016</Unlock>
+			<Description>So futuristic! So amazing!</Description>
+			<DevTime>8</DevTime>
+			<Innovation>13</Innovation>
+			<Usability>14</Usability>
+			<Stability>3</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>3</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature>
+			<Name>Java10</Name>
+			<Unlock>2018</Unlock>
+			<Description>It Can't get any better than this, Java10 is a masterpiece.</Description>
+			<DevTime>9</DevTime>
+			<Innovation>14</Innovation>
+			<Usability>15</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>4</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature From="HTML" Vital="TRUE">
+			<Name>HTML Framework</Name>
+			<Description>Title Says it all.</Description>
+			<DevTime>1</DevTime>
+			<Innovation>12</Innovation>
+			<Usability>13</Usability>
+			<Stability>5</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>5</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature From="Css" Vital="TRUE">
+			<Name>Css Framework</Name>
+			<Description></Description>
+			<DevTime>1</DevTime>
+			<Innovation>7</Innovation>
+			<Usability>8</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Server>2</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature From="Javascript" Vital="TRUE">
+			<Name>Javascript Framework</Name>
+			<Description></Description>
+			<DevTime>1</DevTime>
+			<Innovation>10</Innovation>
+			<Usability>11</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>4</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature From="Java" Vital="TRUE">
+			<Name>Java Framework</Name>
+			<Description></Description>
+			<DevTime>1</DevTime>
+			<Innovation>14</Innovation>
+			<Usability>15</Usability>
+			<Stability>4</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>4</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+	</Features>
+</SoftwareType>

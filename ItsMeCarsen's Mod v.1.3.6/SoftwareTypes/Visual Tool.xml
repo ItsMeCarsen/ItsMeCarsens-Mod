@@ -1,0 +1,50 @@
+<SoftwareType>
+	<Name>Visual Tool</Name>
+	<Category>Graphics</Category>
+	<Description>The visual tool is for creating visual art, whether it be 3D animations or pixelart.</Description>
+	<Random>0.2</Random>
+	<Popularity>0.5</Popularity>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<NameGenerator>Visual</NameGenerator>
+	<Needs></Needs>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Image viewing</Name>
+			<Description>You have to at least be able to actually see images</Description>
+			<DevTime>1</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies></Dependencies>
+		</Feature>
+		<Feature From="Image viewing" Vital="TRUE">
+			<Name>Image editing</Name>
+			<Category>2D</Category>
+			<Description>Allow the user to alter pixels so they can improve all their cat pictures</Description>
+			<DevTime>4</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies>
+				<Dependency Software="Operating System">GUI</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature Vital="TRUE">
+			<Name>3D editor</Name>
+			<Category>3D</Category>
+			<Description></Description>
+			<DevTime>16</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies>
+				<Dependency Software="Operating System">3D rendering</Dependency>
+			</Dependencies>
+		</Feature>
+	</Features>
+</SoftwareType>

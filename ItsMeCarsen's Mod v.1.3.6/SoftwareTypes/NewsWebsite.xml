@@ -1,0 +1,40 @@
+<SoftwareType>
+	<Name>News Website</Name>
+	<Description>A website where you can read the news on the computer.</Description>
+	<Random>0.2</Random>
+	<Popularity>1</Popularity>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<Category>Network</Category>
+	<NameGenerator>NewsWebsite</NameGenerator>
+	<Needs></Needs>
+	<Features>
+		<Feature Forced ="True">
+			<Name>Speaker</Name>
+			<Description>Liseten to the text you read with this handy dandy speaker!</Description>
+			<DevTime>3</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Server>14</Server>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
+		<Feature Forced="False">
+			<Name>News Videos</Name>
+			<Description>Now you can not only look at the pictures, but you can also watch videos from the news!</Description>
+			<DevTime>2</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0</CodeArt>
+			<Server>14</Server>
+			<Dependencies>
+				<Dependency Software="Operating System">Networking</Dependency>
+				<Dependency Software="Operating System">8-bit audio</Dependency>
+			</Dependencies>
+		</Feature>
+	</Features>
+</SoftwareType>

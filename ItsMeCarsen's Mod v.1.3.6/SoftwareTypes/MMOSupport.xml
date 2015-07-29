@@ -1,0 +1,36 @@
+<SoftwareType>
+	<Name>MMO Support</Name>
+	<Description>This is what is needed to make an MMO game.</Description>
+	<Random>0</Random>
+	<Popularity>0.2</Popularity>
+	<OSSpecific>TRUE</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Category>System</Category>
+	<NameGenerator>MMO</NameGenerator>
+	<Needs></Needs>
+	<Features>
+		<Feature Forced="True">
+			<Name>Engine MMO Support</Name>
+			<Description>For the MMO Support, you don't want just code, you need an engine to go with it! Thats what this is for!</Description>
+			<DevTime>6</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>7</Usability>
+			<Stability>2</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Server>20</Server>
+			<Dependencies Software="Operating System">Networking</Dependencies>
+		</Feature>
+		<Feature Forced="False">
+			<Name>Customer Support</Name>
+			<Description>Need any help? Contact customer support!</Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>5</Usability>
+			<Stability>3</Stability>
+			<CodeArt>0</CodeArt>
+			<Server>3</Server>
+			<Dependencies Software="Operating System">System</Dependencies>
+		</Feature>
+	</Features>
+</SoftwareType>

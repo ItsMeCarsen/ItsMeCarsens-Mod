@@ -1,0 +1,80 @@
+<SoftwareType>
+	<Name>Webbased Game</Name>
+	<Category>Gaming</Category>
+	<Description>Webbased games are not bound to any operating system, but suffer the conequences of not being able to fully utilize the underlying system.</Description>
+	<Random>0.8</Random>
+	<Popularity>0.5</Popularity>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<Category>Websites</Category>
+	<Unlock>1990</Unlock>
+	<NameGenerator>Game</NameGenerator>
+	<Needs>
+		<Name>Visual Tool</Name>
+		<Name>Audio Tool</Name>
+	</Needs>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Text Based</Name>
+			<Description>Spreadsheet games! Yaaay!</Description>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>1</Usability>
+			<Stability>4</Stability>
+			<CodeArt>0.1</CodeArt>
+			<Dependencies></Dependencies>
+		</Feature>
+		<Feature From="Text Based" Vital="TRUE">
+			<Name>2D graphics</Name>
+			<Category>2D</Category>
+			<Unlock>1995</Unlock>
+			<Description></Description>
+			<DevTime>6</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.5</CodeArt>
+			<Dependencies></Dependencies>
+		</Feature>
+		<Feature From="2D graphics">
+			<Name>3D graphics</Name>
+			<Category>3D</Category>
+			<Unlock>2000</Unlock>
+			<Description>Add that third dimension to your webgame.</Description>
+			<DevTime>8</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.2</CodeArt>
+			<Dependencies>
+				<Dependency Software="Visual Tool">3D editor</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature>
+			<Name>Music</Name>
+			<Category>Audio</Category>
+			<Description></Description>
+			<DevTime>2</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>0.1</CodeArt>
+			<Dependencies>
+				<Dependency Software="Audio Tool">Music editor</Dependency>
+			</Dependencies>
+		</Feature>
+		<Feature>
+			<Name>MMO</Name>
+			<Category>Network</Category>
+			<Description></Description>
+			<DevTime>18</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>1</Server>
+			<Dependencies></Dependencies>
+		</Feature>
+	</Features>
+</SoftwareType>
