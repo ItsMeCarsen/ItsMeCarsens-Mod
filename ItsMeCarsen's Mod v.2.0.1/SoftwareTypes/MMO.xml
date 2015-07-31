@@ -10,6 +10,10 @@
 	<Category>System</Category>
 	<NameGenerator>MMO</NameGenerator>
 	<Needs>
+		<Name>MMO Support</Name>
+		<Name>Game</Name>
+		<Name>Audio Tool</Name>
+		<Name>Visual Tool</Name>
 	</Needs>
 	<Features>
 		<Feature Forced="True">
@@ -21,7 +25,8 @@
 			<Stability>1</Stability>
 			<CodeArt>0</CodeArt>
 			<Server>3</Server>
-			<Dependencies Software="Game Engine">MMO</Dependencies>
+			<Dependencies>
+			</Dependencies>
 		</Feature>
 		<Feature Forced="True">
 			<Name>InGame Audio Chat</Name>
@@ -32,7 +37,8 @@
 			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
 			<Server>25</Server>
-			<Dependencies Software="Audio Tool">Audio playback</Dependencies>
+			<Dependencies>
+			</Dependencies>
 		</Feature>
 		<Feature Forced="False" From="InGame Audio Chat">
 			<Name>InGame Text Chat</Name>
@@ -43,7 +49,9 @@
 			<Stability>2</Stability>
 			<CodeArt>1</CodeArt>
 			<Server>25</Server>
-			<Dependencies Software="Operating System">Keyboard Input</Dependencies>
+			<Dependencies>
+				<Dependency Software="Operating System">Keyboard input</Dependency>
+			</Dependencies>
 		</Feature>
 		<Feature Forced="False">
 			<Name>Lobby</Name>

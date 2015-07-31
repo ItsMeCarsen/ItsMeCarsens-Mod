@@ -1,0 +1,149 @@
+<SoftwareType>
+	<Name>Mobile Operating System</Name>
+	<Description>The main thing... But mobile</Description>
+	<Category>Computing</Category>
+	<Random>0</Random>
+	<Popularity>1</Popularity>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<NameGenerator>OS</NameGenerator>
+	<Needs>
+		<Name>Operating System</Name>
+	</Needs>
+	<Features>
+		<Feature Forced="TRUE">
+		<Name>Mobile Terminal</Name>
+		<Description>The mobile terminal is the classic text-based interface between the Mobile Operating System and the user.</Description>
+		<DevTime>10</DevTime>
+		<Innovation>0</Innovation>
+		<Usability>1</Usability>
+		<Stability>4</Stability>
+		<CodeArt>1</CodeArt>
+		<Dependencies>
+			<Dependency Software="Operating System">Terminal</Dependency>
+		</Dependencies>
+	</Feature>
+	<Feature Vital="TRUE">
+		<Name>GUI</Name>
+		<Category>2D</Category>
+		<Description>The Graphical User Interface allows users to actually visualize what they are doing. No longer will they be bound to inputting one line at a time.</Description>
+		<DevTime>12</DevTime>
+		<Innovation>1</Innovation>
+		<Usability>2</Usability>
+		<Stability>1</Stability>
+		<CodeArt>0.7</CodeArt>
+		<Dependencies>
+			<Dependency Software="Operating System">GUI</Dependency>
+		</Dependency>
+	<Feature Vital="TRUE">
+		<Name>3D rendering</Name>
+		<Description>3D rendering</Description>
+		<Category>3D</Category>
+		<Unlock>1990</Unlock>
+		<Description></Description>
+		<DevTime>8</DevTime>
+		<Innovation>2</Innovation>
+		<Usability>2</Usability>
+		<Stability>1</Stability>
+		<CodeArt>1</CodeArt>
+		<Dependencies>
+			<Dependency Software="Mobile Operating System">GUI</Dependency>
+			<Dependeny Software="Operating System">3D rendering,</Dependency>
+			<Dependency Software="Operating System">GUI</Dependency>
+		</Dependencies>
+	</Feature>
+	<Feature Forced="TRUE">
+		<Name>Mobile Keyboard Input</Name>
+		<Description>It has letters, numbers and other important stuff, but it's smaller!</Description>
+		<DevTime>4</DevTime>
+		<Innovation>0</Innovation>
+		<Usability>1</Usability>
+		<Stability>1</Stability>
+		<CodeArt>1</CodeArt>
+		<Dependencies>
+		</Dependencies>
+	</Feature>
+	<Feature From="Keyboard Input" Vital="TRUE">
+		<Name>Plug'n'Play</Name>
+		<Category>System</Category>
+		<Unlock>1985</Unlock>
+		<Description>Plug whatevery you like into the Mobile device and let the mobile operating system handle the rest.</Description>
+		<DevTime>10</DevTime>
+		<Innovation>1</Innovation>
+		<Usability>4</Usability>
+		<Stability>1</Stability>
+		<CodeArt>1</CodeArt>
+		<Dependencies>
+		</Dependencies>
+	</Feature>
+	<Feature From="Keyboard input" Vital="TRUE">
+		<Name>Bluetooth Keyboard</Name>
+		<Category>System</Category>
+		<Category>Bluetooth</Category>
+		<Unlock>2000</Unlock>
+		<Description>Just hit the bluetooth button, and click the on button on this handy keyboard, to have it wherever you go! No wire connection needed.</Description>
+		<DevTime>12</DevTime>
+		<Innovation>5</Innovation>
+		<Usability>8</Usability>
+		<Stability>1</Stability>
+		<CodeArt>1</CodeArt>
+		<Dependencies>
+			<Dependency Software="Internet Connection">Wireless Router</Dependency>
+		</Dependencies>
+	</Feature>
+	<Feature>
+		<Name>Multitasking</Name>
+		<Category>System</Category>
+		<Description>Let your users pretend they can multitask by having several applications open at any one time.</Description>
+		<DevTime>6</DevTime>
+		<Innovation>1</Innovation>
+		<Usability>1</Usability>
+		<Stability>0</Stability>
+		<CodeArt>1</CodeArt>
+		<Dependencies>
+		</Dependencies>
+	</Feature>
+	<Feature Vital="TRUE">
+		<Name>Networking</Name>
+		<Category>Network</Category>
+		<Unlock>1985</Unlock>
+		<Description>How will anonymous people troll each other all over the world without this handy feature?</Description>
+		<DevTime>10</DevTime>
+		<Innovation>2</Innovation>
+		<Usability>1</Usability>
+		<Stability>0</Stability>
+		<CodeArt>1</CodeArt
+		<Dependencies>
+			<Dependency Software="Internet Connection">Wireless Router</Dependency>
+		</Dependencies>
+	</Feature>
+	<Feature>
+		<Name>Manual Update</Name>
+		<Unlock>1990</Unlock>
+		<Description>Keep bugs and malware out, while annoying users with broken drivers and sudden restarts don't. But warning you, you have to do the work yourself.</Description>
+		<DevTime>3</DevTime>
+		<Innovation>1</Innovation>
+		<Usability>0</Usability>
+		<Stability>1</Stability>
+		<CodeArt>1</CodeArt>
+		<Dependencies>
+		</Dependencies>
+	</Feature>
+	<Feature From="Manual Update">
+		<Name>Auto-update</Name>
+		<Unlock>1995</Unlock>
+		<Description>Keep bugs and malware out, while annoying users with broken drivers and sudden restarts don't.</Description>
+		<DevTime>3</DevTime>
+		<Innovation>1</Innovation>
+		<Usability>1</Usability>
+		<Stability>2</Stability>
+		<CodeArt>1</CodeArt>
+		<Server>0.5</Server>
+		<Dependencies>
+			<Dependency Software="Mobile Operating System">Networking</Dependency>
+			<Dependency Software="Operating System">Networking</Dependency>
+		</Dependencies>
+	</Feature>
+</Features>
+</SoftwareType>

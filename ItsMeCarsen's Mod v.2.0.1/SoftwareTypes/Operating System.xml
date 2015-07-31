@@ -13,7 +13,7 @@
 		<Feature Forced="TRUE">
 			<Name>Terminal</Name>
 			<Description>The terminal is the classic text-based interface between the Operating System and the user.</Description>
-			<DevTime>16</DevTime>
+			<DevTime>13</DevTime>
 			<Innovation>0</Innovation>
 			<Usability>1</Usability>
 			<Stability>4</Stability>
@@ -23,8 +23,8 @@
 		<Feature Vital="TRUE">
 			<Name>GUI</Name>
 			<Category>2D</Category>
-			<Description>The Graphical User Interface allow users to actually visualize what they are doing. No longer will they be bound to inputting one line at a time.</Description>
-			<DevTime>24</DevTime>
+			<Description>The Graphical User Interface allows users to actually visualize what they are doing. No longer will they be bound to inputting one line at a time.</Description>
+			<DevTime>15</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -37,7 +37,7 @@
 			<Category>3D</Category>
 			<Unlock>1990</Unlock>
 			<Description></Description>
-			<DevTime>16</DevTime>
+			<DevTime>12</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
@@ -105,7 +105,7 @@
 		<Feature>
 			<Name>Auto-update</Name>
 			<Unlock>1995</Unlock>
-			<Description>Keep bugs and malware out, while annoying users with broken drivers and sudden restarts.</Description>
+			<Description>Keep bugs and malware out, while annoying users with broken drivers and sudden restarts don't.</Description>
 			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>0</Usability>
@@ -171,17 +171,6 @@
 			<Usability>2</Usability>
 			<Stability>2</Stability>
 			<CodeArt>0.9</CodeArt>
-			<Dependencies></Dependencies>
-		</Feature>
-		<Feature Vital="FALSE">
-			<Name>Mobile OS</Name>
-			<Unlock>2005</Unlock>
-			<Description>A Handheld operating system, very useful for traveling uses.</Description>
-			<DevTime>5</DevTime>
-			<Innovation>3</Innovation>
-			<Usability>4</Usability>
-			<Stability>2</Stability>
-			<CodeArt>1</CodeArt>
 			<Dependencies></Dependencies>
 		</Feature>
 	</Features>

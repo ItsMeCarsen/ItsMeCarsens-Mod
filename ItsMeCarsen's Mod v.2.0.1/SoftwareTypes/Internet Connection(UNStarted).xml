@@ -1,0 +1,36 @@
+<SoftwareType>
+	<Name>Internet Connection</Name>
+	<Description>Use this to connect your Computer/Mobile Device to the internet</Description>
+	<Category>Network</Category>
+	<Random>0</Random>
+	<Popularity>1</Popularity>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<NameGenerator>OS</NameGenerator>
+	<Needs></Needs>
+	<Features>
+		<Feature Forced="TRUE">
+			<Name>Wired Router</Name>
+			<Description>This is how you connect to the internet, but it has to be plugged in to your device.</Description>
+			<DevTime>15</DevTime>
+			<Innovation>8</Innovation>
+			<Usability>10</Usability>
+			<Stability>5</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Server>4</Server>
+			<Dependencies></Dependencies>
+		</Feature>
+		<Feature From="Wired Router">
+			<Name>Wireless Router</Name>
+			<Description>This a better way to connect to the internet. This way multiple users can connect to the same router, and it doesn't even have a cord.</Description>
+			<DevTime>18</DevTime>
+			<Innovation>14</Innovation>
+			<Usability>12</Usability>
+			<Stability>8</Stability>
+			<CodeArt>0.8</CodeArt>
+			<Server>5</Server>
+			<Dependencies></Dependencies>
+		</Feature>
+	</Features>
+</SoftwareTypes>

@@ -19,7 +19,9 @@
 			<Stability>1</Stability>
 			<CodeArt>0.5</CodeArt>
 			<Server>10</Server>
-			<Dependencies Software="Operating System">Keyboard input</Dependencies>
+			<Dependencies>
+				<Dependency Software="Operating System">Keyboard input</Dependency>
+			</Dependencies>
 		</Feature>
 		<Feature Forced="True">
 			<Name>Editor</Name>
@@ -31,7 +33,9 @@
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
 			<Server>15</Server>
-			<Dependencies Software="File Reader">Reader Support</Dependencies>
+			<Dependencies>
+				<Dependency Software="File Reader">Reader Support</Dependency>
+			</Dependencies>
 		</Feature>
 		<Feature Forced="False">
 			<Name>Downloader</Name>
@@ -42,7 +46,9 @@
 			<Stability>1</Stability>
 			<CodeArt>0.5</CodeArt>
 			<Server>15</Server>
-			<Dependencies Software="File Reader">Reader Support</Dependencies>
+			<Dependencies>
+				<Dependency Software="File Reader">Reader Support</Dependency>
+			</Dependencies>
 		</Feature>
 	</Features>
 </SoftwareType>
