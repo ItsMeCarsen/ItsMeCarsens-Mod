@@ -19,7 +19,7 @@
 			<Stability>1</Stability>
 			<CodeArt>0.5</CodeArt>
 			<Server>1</Server>
-			<Dependencies Software="Operating System">Mobile OS</Depedencies>
+			<Dependencies Software="Operating System">Mobile OS</Dependencies>
 		</Feature>
 			<Feature From="Normal Sound">
 			<Name>Super Amazing Sound</Name>
@@ -30,7 +30,7 @@
 			<Stability>2</Stability>
 			<CodeArt>0.5</CodeArt>
 			<Server>1</Server>
-			<Dependencies Software="Operating System">Mobile OS</Depedencies>
+			<Dependencies Software="Operating System">Mobile OS</Dependencies>
 		</Feature>
 		<Feature Forced="True">
 			<Name>Normal Graphics</Name>
@@ -41,7 +41,7 @@
 			<Stability>1</Stability>
 			<CodeArt>0.5</CodeArt>
 			<Server>1</Server>
-			<Dependencies Software="Operating System">Mobile OS</Depedencies>
+			<Dependencies Software="Operating System">Mobile OS</Dependencies>
 		</Feature>
 		<Feature From="Normal Graphics">
 			<Name>Great Graphics</Name>
@@ -52,7 +52,7 @@
 			<Stability>4</Stability>
 			<CodeArt>0.4</CodeArt>
 			<Server>1</Server>
-			<Dependencies Software="Operating System">Mobile OS</Depedencies>
+			<Dependencies Software="Operating System">Mobile OS</Dependencies>
 		</Feature>
 	</Features>
 </SoftwareType>
