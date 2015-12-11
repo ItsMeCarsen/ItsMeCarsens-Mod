@@ -1,7 +1,11 @@
 #ItsMeCarsens Mod
 
 --------------------------------------------------------------------------------------------------------------------------------
+Contributors:
 
+  - PaziHD
+  - ItsMeCarsen
+  
 How to download/use:
 
 1. Unzip the Mod Folder
