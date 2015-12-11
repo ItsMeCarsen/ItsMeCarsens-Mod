@@ -3,8 +3,8 @@
 --------------------------------------------------------------------------------------------------------------------------------
 Contributors:
 
-  - PaziHD
-  - ItsMeCarsen
+  - PaziHD (MiniOS)
+  - ItsMeCarsen (Whole Mod)
   
 How to download/use:
 
