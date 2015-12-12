@@ -35,7 +35,7 @@
 		<Feature Forced="True">
 			<Name>Normal Graphics</Name>
 			<Description>Just Normal Graphics in your normal mobile game.</Description>
-			<DevTime<2</DevTime>
+			<DevTime>2</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>3</Usability>
 			<Stability>1</Stability>
