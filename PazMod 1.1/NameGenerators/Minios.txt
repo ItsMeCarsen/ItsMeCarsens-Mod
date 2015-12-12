@@ -15,7 +15,7 @@ karate kid
 Faggot
 Julus
 Vertigo
-::AEROHACK
+AEROHACK
 The Mini
 -base2(stop)
  One

@@ -1,5 +1,10 @@
-#PazMod 1.0
-
+#PazMod 1.1
+* Fixed typos by Carsen
+* Fixed more typos by Carsen
+* Fixed errors by carsen
+* Fixed bad format by carsen
++ MiniOS Finalized
+You have a lot of typos & bad format errors ItsMeCarsen!
 --------------------------------------------------------------------------------------------------------------------------------
 Thanks to ItsMeCarsen for the base of this mod!
 

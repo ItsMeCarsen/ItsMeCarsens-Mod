@@ -10,9 +10,10 @@
 	<NameGenerator>OS</NameGenerator>
 	<Needs>
 		<Name>Operating System</Name>
+        <Name>Internet Connection</Name>
 	</Needs>
 	<Features>
-		<Feature Forced="TRUE">
+	<Feature Forced="TRUE">
 		<Name>Mobile Terminal</Name>
 		<Description>The mobile terminal is the classic text-based interface between the Mobile Operating System and the user.</Description>
 		<DevTime>10</DevTime>
@@ -35,7 +36,8 @@
 		<CodeArt>0.7</CodeArt>
 		<Dependencies>
 			<Dependency Software="Operating System">GUI</Dependency>
-		</Dependency>
+		</Dependencies>
+    </Feature>
 	<Feature Vital="TRUE">
 		<Name>3D rendering</Name>
 		<Description>3D rendering</Description>
@@ -49,7 +51,7 @@
 		<CodeArt>1</CodeArt>
 		<Dependencies>
 			<Dependency Software="Mobile Operating System">GUI</Dependency>
-			<Dependeny Software="Operating System">3D rendering,</Dependency>
+			<Dependency Software="Operating System">3D rendering</Dependency>
 			<Dependency Software="Operating System">GUI</Dependency>
 		</Dependencies>
 	</Feature>
@@ -64,7 +66,7 @@
 		<Dependencies>
 		</Dependencies>
 	</Feature>
-	<Feature From="Keyboard Input" Vital="TRUE">
+	<Feature From="Mobile Keyboard Input" Vital="TRUE">
 		<Name>Plug'n'Play</Name>
 		<Category>System</Category>
 		<Unlock>1985</Unlock>
@@ -76,8 +78,8 @@
 		<CodeArt>1</CodeArt>
 		<Dependencies>
 		</Dependencies>
-	</Feature>
-	<Feature From="Keyboard input" Vital="TRUE">
+    </Feature>
+	<Feature From="Mobile Keyboard Input" Vital="TRUE">
 		<Name>Bluetooth Keyboard</Name>
 		<Category>System</Category>
 		<Category>Bluetooth</Category>
@@ -89,61 +91,60 @@
 		<Stability>1</Stability>
 		<CodeArt>1</CodeArt>
 		<Dependencies>
-			<Dependency Software="Internet Connection">Wireless Router</Dependency>
+			<Dependency Software="Internet Connection">Wired Router</Dependency>
 		</Dependencies>
-	</Feature>
-	<Feature>
-		<Name>Multitasking</Name>
-		<Category>System</Category>
-		<Description>Let your users pretend they can multitask by having several applications open at any one time.</Description>
-		<DevTime>6</DevTime>
-		<Innovation>1</Innovation>
-		<Usability>1</Usability>
-		<Stability>0</Stability>
-		<CodeArt>1</CodeArt>
-		<Dependencies>
-		</Dependencies>
-	</Feature>
+    </Feature>
+	<Feature Forced="FALSE">
+			<Name>Multitasking</Name>
+			<Category>System</Category>
+			<Description>Let your users pretend they can multitask by having several applications open at any one time.</Description>
+			<DevTime>6</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies>
+			</Dependencies>
+    </Feature>
 	<Feature Vital="TRUE">
-		<Name>Networking</Name>
-		<Category>Network</Category>
-		<Unlock>1985</Unlock>
-		<Description>How will anonymous people troll each other all over the world without this handy feature?</Description>
-		<DevTime>10</DevTime>
-		<Innovation>2</Innovation>
-		<Usability>1</Usability>
-		<Stability>0</Stability>
-		<CodeArt>1</CodeArt
-		<Dependencies>
-			<Dependency Software="Internet Connection">Wireless Router</Dependency>
-		</Dependencies>
-	</Feature>
-	<Feature>
-		<Name>Manual Update</Name>
-		<Unlock>1990</Unlock>
-		<Description>Keep bugs and malware out, while annoying users with broken drivers and sudden restarts don't. But warning you, you have to do the work yourself.</Description>
-		<DevTime>3</DevTime>
-		<Innovation>1</Innovation>
-		<Usability>0</Usability>
-		<Stability>1</Stability>
-		<CodeArt>1</CodeArt>
-		<Dependencies>
-		</Dependencies>
-	</Feature>
+			<Name>Networking</Name>
+			<Category>Network</Category>
+			<Unlock>1985</Unlock>
+			<Description>How will anonymous people troll each other all over the world without this handy feature?</Description>
+			<DevTime>10</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+            <CodeArt>1</CodeArt>
+            <Dependencies>
+            </Dependencies>
+            </Feature>
+	<Feature Forced="FALSE">
+			<Name>Manual Update</Name>
+			<Unlock>1990</Unlock>
+			<Description>Keep bugs and malware out, while annoying users with broken drivers and sudden restarts don't. But warning you, you have to do the work yourself.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+			<Dependencies>
+			</Dependencies>
+		</Feature>
 	<Feature From="Manual Update">
-		<Name>Auto-update</Name>
-		<Unlock>1995</Unlock>
-		<Description>Keep bugs and malware out, while annoying users with broken drivers and sudden restarts don't.</Description>
-		<DevTime>3</DevTime>
-		<Innovation>1</Innovation>
-		<Usability>1</Usability>
-		<Stability>2</Stability>
-		<CodeArt>1</CodeArt>
-		<Server>0.5</Server>
-		<Dependencies>
-			<Dependency Software="Mobile Operating System">Networking</Dependency>
-			<Dependency Software="Operating System">Networking</Dependency>
-		</Dependencies>
+			<Name>Auto-update</Name>
+			<Unlock>1995</Unlock>
+			<Description>Keep bugs and malware out, while annoying users with broken drivers and sudden restarts don't.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>2</Stability>
+			<CodeArt>1</CodeArt>
+			<Server>0.5</Server>
+			<Dependencies>
+				<Dependency Software="Mobile Operating System">Networking</Dependency>
+				<Dependency Software="Operating System">Networking</Dependency>
+			</Dependencies>
 	</Feature>
-</Features>
+	</Features>
 </SoftwareType>
